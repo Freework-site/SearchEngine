@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Segoe UI,sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.maincontainer{
+    background: #510FD1;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo img{
+    width: 35rem;
+    margin-top: -20rem;
+    margin-left: -2.3rem;
+}
+.logotext h1{
+    color: #fff;
+    font-size: 65px;
+    font-weight: bold;
+    margin: -20px 0px 20px 0;
+}
+form input{
+    border: 2.5px solid #fff;
+    background: none;
+    outline: none;
+    color: white;
+    width: 25rem;
+    height: 2.5rem;
+    padding: 0.7rem;
+    font-size: 18px;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: #fff;
+}
+.btn{
+    text-align: center;
+    margin-top: 18px;
+}
+.btn button{
+    border: 2.5px solid #fff;
+    background: none;
+    outline: none;
+    color: white;
+    width: 9em;
+    height: 2.4rem;
+    cursor:pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.4s ease-in-out;
+}
+button:hover{
+    background: #fff;
+    color: #510FD1;
+    font-size: 16px;
+}
